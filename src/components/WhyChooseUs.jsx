@@ -62,38 +62,27 @@ const WhyChooseUs = () => {
             }
             gsap.set(".wcu-card", { opacity: 0, scale: 0.8, y: 50, rotationX: 45, transformOrigin: "top center" });
 
-            // MASTER TIMELINE
+            // MASTER TIMELINE - Trigger immediately on enter
             const tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: section,
-                    start: "top center",
-                    end: "bottom bottom",
-                    scrub: 1,
+                    start: "top 80%",
+                    toggleActions: "play none none none",
                 }
             });
 
-            // 1. Draw Lines (Both Desktop & Mobile)
+            // 1. Draw Lines (Both Desktop & Mobile) - Fast
             tl.to([path, mobilePath], {
                 strokeDashoffset: 0,
-                ease: "none",
-                duration: 10
+                ease: "power2.out",
+                duration: 0.8
             });
 
-            // 2. Pop Cards Sequence - Synced with Line Progress
-            // Line Duration = 10s
-            // Card Centers approx at: 12.5%, 37.5%, 62.5%, 87.5%
-
-            // Card 1
-            tl.to(".card-1", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.8, ease: "back.out(1.5)" }, 0.5);
-
-            // Card 2
-            tl.to(".card-2", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.8, ease: "back.out(1.5)" }, 3.0);
-
-            // Card 3
-            tl.to(".card-3", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.8, ease: "back.out(1.5)" }, 5.5);
-
-            // Card 4
-            tl.to(".card-4", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.8, ease: "back.out(1.5)" }, 8.0);
+            // 2. Pop Cards - All visible quickly
+            tl.to(".card-1", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.3, ease: "back.out(1.5)" }, 0.1);
+            tl.to(".card-2", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.3, ease: "back.out(1.5)" }, 0.2);
+            tl.to(".card-3", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.3, ease: "back.out(1.5)" }, 0.3);
+            tl.to(".card-4", { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.3, ease: "back.out(1.5)" }, 0.4);
 
         }, sectionRef);
 
