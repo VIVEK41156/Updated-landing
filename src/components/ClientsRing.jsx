@@ -37,7 +37,7 @@ const clients = [
     },
     {
         id: 5,
-        title: "Implant Clinics",
+        title: "Implant & Emergency Dental Clinics",
         icon: Activity,
         desc: "Surgical solutions",
         color: "linear-gradient(135deg, #ef4444, #dc2626)"
