@@ -116,7 +116,7 @@ const ProcessFlow = () => {
                 <div className="process-container">
                     {/* SVG Path Background */}
                     <div className="svg-container">
-                        <svg viewBox="0 0 600 1200" fill="none" preserveAspectRatio="xMidYMin meet">
+                        <svg viewBox="0 0 600 1500" fill="none" preserveAspectRatio="xMidYMin meet">
                             <defs>
                                 <linearGradient id="gradientFlow" x1="0%" y1="0%" x2="0%" y2="100%">
                                     <stop offset="0%" stopColor="#ec4899" /> {/* Pink */}
@@ -128,14 +128,14 @@ const ProcessFlow = () => {
                                     <feComposite in="SourceGraphic" in2="blur" operator="over" />
                                 </filter>
                             </defs>
-                            {/* The Snake Path */}
+                            {/* The Snake Path - Extended for more space */}
                             <path
                                 ref={pathRef}
                                 d="M300,0 
                                C300,100 100,100 100,250 
                                C100,400 500,400 500,550
-                               C500,700 100,700 100,850
-                               C100,1000 300,1000 300,1200"
+                               C500,700 100,700 100,900
+                               C100,1100 300,1150 300,1500"
                                 stroke="url(#gradientFlow)"
                                 strokeWidth="12"
                                 strokeLinecap="round"
@@ -176,8 +176,8 @@ const ProcessFlow = () => {
                         </div>
                     </div>
 
-                    {/* Step 4: Center/Bottom */}
-                    <div className="process-step step-center" style={{ top: '1000px' }}>
+                    {/* Step 4: Center/Bottom - More space from card 3 */}
+                    <div className="process-step step-center" style={{ top: '1150px' }}>
                         <div className="process-card card-teal">
                             <div className="step-number">04</div>
                             <div className="card-icon"><BarChart size={28} /></div>

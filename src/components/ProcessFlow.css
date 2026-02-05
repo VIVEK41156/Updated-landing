@@ -3,7 +3,7 @@
     position: relative;
     padding: 100px 0;
     /* Increased to separate sections */
-    min-height: 1400px;
+    min-height: 1600px;
     /* Blended Background */
     background-color: #f8fafc;
     background-image:
@@ -39,7 +39,7 @@
     max-width: 1000px;
     /* Constrained width for the snake */
     margin: 0 auto;
-    height: 1200px;
+    height: 1400px;
 }
 
 /* SVG Container - The Track */
