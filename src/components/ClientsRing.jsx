@@ -44,13 +44,6 @@ const clients = [
     },
     // Duplicate for fuller ring appearance if needed, 
     // but with 5 items we can just spread them wider or duplicate content
-    {
-        id: 6,
-        title: "Oral Surgeons",
-        icon: Activity,
-        desc: "Complex procedures",
-        color: "linear-gradient(135deg, #10b981, #059669)"
-    }
 ];
 
 const ClientsRing = () => {
