@@ -109,6 +109,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-left: 80px;
+    /* Align under title text (icon box width + gap) */
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -270,6 +272,8 @@
     .authority-list {
         align-items: center;
         /* Center list items */
+        margin-left: 0;
+        /* Reset for mobile centered layout */
     }
 
     .authority-list li {
