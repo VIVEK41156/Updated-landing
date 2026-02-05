@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import thankYouImage from '../assets/thank-you-tooth.png';
 
 const ThankYou = () => {
     return (
@@ -42,7 +43,7 @@ const ThankYou = () => {
                         }}
                     >
                         <img
-                            src="/src/assets/thank-you-tooth.png"
+                            src={thankYouImage}
                             alt="Success"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />

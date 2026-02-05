@@ -31,7 +31,7 @@ const PageLoader = () => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Updated-landing">
       <Suspense fallback={<PageLoader />}>
         <Routes>
           <Route path="/" element={<LandingPage />} />

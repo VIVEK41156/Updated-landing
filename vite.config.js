@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: './', // Use relative base for maximum compatibility
+  base: '/Updated-landing/', // Base URL for GitHub Pages
   plugins: [react()],
   build: {
     rollupOptions: {
