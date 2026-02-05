@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import thankYouImage from '../assets/thank-you-tooth.png';
 
 const ThankYou = () => {
+    // v3: Clean layout verified - Force Update
     return (
         <div className="app">
             <main style={{
