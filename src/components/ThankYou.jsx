@@ -1,16 +1,12 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
 import thankYouImage from '../assets/thank-you-tooth.png';
 
 const ThankYou = () => {
     return (
         <div className="app">
-            <Header onContactClick={() => { }} /> {/* Pass empty handler as calling it here might not be needed */}
-
             <main style={{
-                minHeight: '80vh',
+                minHeight: '100vh',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -65,8 +61,6 @@ const ThankYou = () => {
                     </Link>
                 </motion.div>
             </main>
-
-            <Footer />
         </div>
     );
 };
