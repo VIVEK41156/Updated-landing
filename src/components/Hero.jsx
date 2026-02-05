@@ -42,7 +42,7 @@ const Hero = ({ onContactClick }) => {
                         <span className="hero__title-sub">Trusted Dental SEO Services in Chicago</span>
                     </h1>
 
-                    <p className="hero__description glass-text">
+                    <p className="hero__description">
                         Digitmarketus helps dentists and dental clinics in Chicago improve their online visibility
                         and organic Google rankings through ethical Dental SEO services. We specialize in Dental
                         SEO helping practices become more visible to people actively searching for dental care.
