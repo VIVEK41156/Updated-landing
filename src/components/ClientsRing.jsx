@@ -47,6 +47,7 @@ const clients = [
 ];
 
 const ClientsRing = () => {
+    // v2: Forced Update - Oral Surgeons Removed
     const ringRef = useRef(null);
     const wrapRef = useRef(null);
 
