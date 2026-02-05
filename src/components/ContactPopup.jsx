@@ -271,9 +271,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
                                         required
                                         className="terms-input"
                                     />
-                                    <span>
-                                        I agree to the <a href="#" className="terms-link">Terms</a> and <a href="#" className="terms-link">Privacy Policy</a>.
-                                    </span>
+                                    <span>I agree to the Terms & Conditions and Privacy Policy.</span>
                                 </label>
                             </div>
 

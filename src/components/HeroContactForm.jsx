@@ -186,7 +186,7 @@ const HeroContactForm = () => {
                         onChange={handleChange}
                         required
                     />
-                    <span>I agree to Terms & Privacy Policy</span>
+                    <span>I agree to the Terms & Conditions and Privacy Policy.</span>
                 </label>
 
                 <motion.button
