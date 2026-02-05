@@ -64,12 +64,9 @@
     /* Reduced from 1.7 */
 }
 
-/* Glass Paragraph Effect */
+/* Glass Paragraph Effect - Disabled per client request */
 .glass-text {
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(4px);
-    border-radius: var(--radius-lg);
-    padding: var(--spacing-sm) 0;
+    /* No visual effects */
 }
 
 /* Buttons */
