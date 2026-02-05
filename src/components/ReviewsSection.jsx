@@ -6,74 +6,75 @@ const reviewsData = [
     {
         id: 1,
         text: "We struggled to appear in Google Maps for years. After working with Digitmarket US, our practice became much more visible in local searches across Chicago.",
-        author: "Dr. Michael R.",
-        location: "Chicago, IL",
+        author: "Dr. Michael R., General Dentist",
+        location: "Chicago",
         tag: "Better Maps Ranking"
     },
     {
         id: 2,
         text: "Digitmarket US clearly understands dental SEO. Their focus on visibility and rankings helped our clinic stand out in a competitive area.",
-        author: "Dr. Sarah L.",
-        location: "Naperville, IL",
+        author: "Dr. Sarah L., Cosmetic Dentist",
+        location: "Naperville",
         tag: "Increased Visibility"
     },
     {
         id: 3,
         text: "Our website traffic from local searches improved steadily. The team explained everything in simple terms and focused only on SEO.",
-        author: "Practice Manager",
-        location: "Illinois",
+        author: "Practice Manager, Multi‑Location Dental Clinic",
+        location: "IL",
         tag: "Traffic Growth"
     },
     {
         id: 4,
         text: "We noticed better placement for key dental searches and stronger Google Maps presence within a few months.",
-        author: "Dr. Anil K.",
-        location: "Schaumburg, IL",
+        author: "Dr. Anil K., Implant Specialist",
+        location: "Schaumburg",
         tag: "Stronger Presence"
     },
     {
         id: 5,
-        text: "What we liked most was their ethical and long-term approach. No hype — just consistent improvements in visibility.",
-        author: "Dr. Emily T.",
-        location: "Evanston, IL",
+        text: "What we liked most was their ethical and long‑term approach. No hype — just consistent improvements in visibility.",
+        author: "Dr. Emily T, Family Dentist",
+        location: "Evanston",
         tag: "Ethical Growth"
     },
     {
         id: 6,
         text: "Digitmarket US helped us clean up local listings and optimize our service pages. Our practice is now easier to find online.",
-        author: "Office Admin",
-        location: "Oak Brook, IL",
+        author: "Office Administrator, Dental Practice",
+        location: "Oak Brook",
         tag: "Easy to Find"
     },
     {
         id: 7,
-        text: "Their dental-focused SEO strategy made a noticeable difference in how often patients mention finding us on Google.",
-        author: "Dr. Jason M.",
-        location: "Chicago, IL",
+        text: "Their dental‑focused SEO strategy made a noticeable difference in how often patients mention finding us on Google.",
+        author: "Dr. Jason M., Emergency Dentist",
+        location: "Chicago",
         tag: "More Patients"
     },
     {
         id: 8,
         text: "We appreciated the clear reporting and transparency. The focus on rankings and discoverability really worked for us.",
-        author: "Clinic Owner",
-        location: "Skokie, IL",
+        author: "Dental Clinic Owner",
+        location: "Skokie",
         tag: "Clear Reporting"
     },
     {
         id: 9,
         text: "Our clinic competes in a tough market, but Digitmarket US improved our organic presence without pushing ads.",
-        author: "Dr. Laura P.",
-        location: "Illinois",
+        author: "Dr. Laura P., Pediatric Dentist",
+        location: "IL",
         tag: "Organic Reach"
     },
     {
         id: 10,
         text: "A reliable SEO partner for dental practices. Their understanding of local search and Google Maps is strong.",
-        author: "Director",
-        location: "Chicago, IL",
+        author: "Practice Director, Dental Group",
+        location: "Chicago",
         tag: "Local Search Expert"
     }
 ];
+
 
 const ReviewCard = ({ review }) => (
     <div className="review-card">
