@@ -45,8 +45,23 @@
     transition: all var(--transition-base);
 }
 
+/* Desktop Logo - hidden on mobile */
+.header__logo-img--desktop {
+    display: none;
+}
+
+/* Mobile Logo - shown on mobile */
+.header__logo-img--mobile {
+    display: block;
+    height: 45px;
+}
+
 .header--scrolled .header__logo-img {
     height: 45px;
+}
+
+.header--scrolled .header__logo-img--mobile {
+    height: 40px;
 }
 
 /* Desktop Navigation */
@@ -267,6 +282,15 @@
     }
 
     .header__mobile-toggle {
+        display: none;
+    }
+
+    /* Show desktop logo, hide mobile logo */
+    .header__logo-img--desktop {
+        display: block;
+    }
+
+    .header__logo-img--mobile {
         display: none;
     }
 

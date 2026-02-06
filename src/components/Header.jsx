@@ -101,10 +101,17 @@ const Header = ({ onContactClick }) => {
           transition={{ duration: 0.3 }}
         >
           <a href="#home">
+            {/* Desktop Logo */}
             <img
               src="https://digitmarketus.com/wp-content/uploads/2025/08/cropped-Digit-Marketus-Logo-scaled-1.png"
               alt="Digit Marketus Logo"
-              className="header__logo-img"
+              className="header__logo-img header__logo-img--desktop"
+            />
+            {/* Mobile Logo */}
+            <img
+              src="/logo-mobile.png"
+              alt="Digit Marketus"
+              className="header__logo-img header__logo-img--mobile"
             />
           </a>
         </motion.div>
